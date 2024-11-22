@@ -23,9 +23,9 @@ app.post('/thumbnail', (req :any , res:any) => {
 
   // TODO: AI logic here: Respond with 3 image URLs
   const images = [
-    `https://images.app.goo.gl/Cc3rAmbTEJe2L5gF9`,
-    `https://images.app.goo.gl/Cc3rAmbTEJe2L5gF9`,
-    `https://images.app.goo.gl/Cc3rAmbTEJe2L5gF9`
+    `https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg`,
+    `https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg`,
+    `https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg`
   ];
 
   res.json({
